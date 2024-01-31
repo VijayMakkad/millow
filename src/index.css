@@ -20,6 +20,7 @@ body {
   font-family: "Open Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #202020;
 }
 
 /* ------------------------------------------------------ */
@@ -64,7 +65,8 @@ nav {
 
 .nav__links li a {
   text-decoration: none;
-  color: var(--clr-black);
+  color: #FFFFFF;
+  text-decoration: underline;
 }
 
 .nav__links li a:hover {
@@ -98,9 +100,8 @@ nav {
 /* -- HEADER -- */
 
 header {
-  background-image: url("./assets/houses.png");
+  background-image: url("./assets/sky.jpg");
   background-position: center;
-  background-size: cover;
   min-height: 40vh;
 
   position: relative;
@@ -174,6 +175,10 @@ header {
 
 .card:hover {
   box-shadow: 1px 1px 5px var(--clr-grey);
+}
+
+h3{
+  color: #FFFFFF;
 }
 
 .card__image {
