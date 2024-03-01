@@ -130,7 +130,7 @@ const Home = ({ home, provider, account, escrow, togglePop }) => {
                     </p>
                     <p>{home.address}</p>
 
-                    <h2>{home.attributes[0].value} XDC</h2>
+                    <h2>{home.attributes[0].value} ETH</h2>
 
                     {owner ? (
                         <div className='home__owned'>
